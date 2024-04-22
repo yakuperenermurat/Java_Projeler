@@ -7,19 +7,6 @@ public class KdvTutariHesaplama {
 
         Scanner scanner = new Scanner(System.in);
 
-      /*  System.out.print("Ürün fiyatı: ");
-        float fiyat = scanner.nextFloat() ;
-
-        float kdvTutari = 1.8f;
-        float kdvliFiyat = (float) (fiyat*0.18) + fiyat;
-
-
-        System.out.println("Kdcsiz Fiyat: " + fiyat);
-        System.out.println("Kdvli Fiyat: " + kdvliFiyat);
-        System.out.println("Kdv Tutari: " + kdvTutari);
-       */
-
-        // ödev kismi buradan basliyor
         System.out.print("Ürün fiyatı: ");
         float fiyat = scanner.nextFloat() ;
 
