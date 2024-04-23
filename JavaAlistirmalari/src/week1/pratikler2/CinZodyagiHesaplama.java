@@ -6,11 +6,16 @@ public class CinZodyagiHesaplama {
 
     public static void main(String[] args) {
 
+        //Burada burc diye bir degiskene atama yaptım.Tek tek yazdırmak yerine.
         String burc = "";
+        
         Scanner input = new Scanner(System.in);
+
+        //Dogum yili girisi
         System.out.print("Doğum Yılınızı Giriniz: ");
         int dogumYili = input.nextInt();
 
+        // Burada girilen yılın hangi aya denk geldigi ayarlandı.
         if (dogumYili % 12 == 0) {
             burc = "Maymun";
         } else if (dogumYili % 12 == 1) {
