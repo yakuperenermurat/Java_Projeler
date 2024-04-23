@@ -36,7 +36,7 @@ public class KullaniciGirisi {
                 String yeniSifre = input.nextLine();
 
                 // Yeni şifre doğru girilmiş ve eski şifreyle farklıysa
-                if (!yeniSifre.equals("Eren123") && !yeniSifre.equals("Yakup123")) {
+                if (yeniSifre.equals("Eren123") && !yeniSifre.equals("Yakup123")) {
                     System.out.println("Şifre oluşturuldu.");
                 } else {
                     System.out.println("Şifre oluşturulamadı, lütfen başka şifre giriniz.");
