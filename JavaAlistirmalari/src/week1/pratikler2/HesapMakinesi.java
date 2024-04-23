@@ -20,7 +20,7 @@ public class HesapMakinesi {
 
         // yapilacak islem secimi
         System.out.println("1-Toplama\n2-Çıkarman\n3-Çarpma\n4-Bölme");
-        
+
         System.out.println("Seçiminiz : ");
         yapilacakIslem = input.nextInt();
 
