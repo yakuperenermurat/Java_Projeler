@@ -6,7 +6,7 @@ public class AritmetikIslemlerVeIslemOncelikleri {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        // Kullanici sayilara giris bolumu
+        // Kullanicinin sayilari girdigi bolum
         System.out.print("a sayisini giriniz: ");
         int a = scanner.nextInt();
         System.out.print("b sayisini giriniz: ");
