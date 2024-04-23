@@ -33,7 +33,7 @@ public class ManavKasaProgrami {
         toplamTutar = ( armut * armutKgFiyati) + ( elma * elmaKgFiyati )
                         + ( domates * domatesKgFiyati) + ( muz * muzKgFiyati)
                         + ( patlican * patlicanKgFiyati);
-        
+
         System.out.println("Toplam Tutar : "+toplamTutar);
     }
 
