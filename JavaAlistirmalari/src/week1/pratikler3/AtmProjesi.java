@@ -50,7 +50,7 @@ public class AtmProjesi {
                 System.out.println("Tekrar görüşmek üzere. ");
                 break;
             } else {
-                // Hatali kullanici adi ve sifre girerse 
+                // Hatali kullanici adi ve sifre girerse
                 right--;
                 System.out.println("Hatalı kullanıcı adı veya şifre. Tekrar deneyiniz.");
                 if (right == 0) {
