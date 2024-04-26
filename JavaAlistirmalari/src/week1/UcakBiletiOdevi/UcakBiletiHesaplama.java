@@ -38,7 +38,7 @@ public class UcakBiletiHesaplama {
                 //yolculuk tipine gore indirim hesaplandi.
                 case 1:
                     System.out.println("Tek yon sectiniz. ");
-                    System.out.println("Toplam tutar : "+Ucret+"TL");
+                    System.out.println("Toplam tutar : "+indirimliUcret+"TL");
                     break;
                 case 2:
                     System.out.println("Cift yon sectiniz. ");
