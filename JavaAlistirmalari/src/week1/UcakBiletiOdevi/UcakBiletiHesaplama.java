@@ -16,7 +16,7 @@ public class UcakBiletiHesaplama {
         System.out.println("Lutfen mesafe giriniz (km cinsinden) : ");
         km = inp.nextDouble();
 
-        System.out.println("Lutfen yolculuk tipi giriniz : ");
+        System.out.println("Lutfen yolculuk tipi ( tek yön -> 1 veya gidiş-dönüş - > 2 ) degerini giriniz : ");
         yolculukTipi = inp.nextInt();
 
         Ucret = km*0.10;  // Indirimsiz ucret hesaplandi.
