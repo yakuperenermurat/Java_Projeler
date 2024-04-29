@@ -8,7 +8,7 @@ public class RecursiveFibonacci {
         if (n == 1|| n == 2) {
             return 1;
         }
-        return fibonacci(n - 1) + fibonacci(n - 2); //fonksiyonun tekrar tekrar çağrıldığı yer oldu.......
+        return fibonacci(n - 1) + fibonacci(n - 2); //fonksiyonun tekrar tekrar çağrıldığı yer.
     }
 
     public static void main(String[] args) {
