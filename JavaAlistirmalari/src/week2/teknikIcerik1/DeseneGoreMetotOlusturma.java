@@ -11,8 +11,6 @@ public class DeseneGoreMetotOlusturma {
             System.out.print(n + " ");
             return;
         }
-
-            
             System.out.print(n + " ");
             nSayisinaGoreRecursive(n - 5);
             System.out.print(n + " ");
@@ -23,6 +21,5 @@ public class DeseneGoreMetotOlusturma {
         System.out.println("N değerini giriniz : ");
         int n = sc.nextInt();
         nSayisinaGoreRecursive(n);
-
     }
 }
