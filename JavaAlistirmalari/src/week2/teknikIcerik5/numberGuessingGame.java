@@ -14,9 +14,7 @@ public class numberGuessingGame {
         int[] wrong = new int[5];
         boolean isWin = false;
         boolean isWrong = false;
-
-        System.out.println(number);
-
+        
         while (right < 5) {
             System.out.println("Please enter your prediction : ");
             selected = input.nextInt();
