@@ -1,23 +1,43 @@
 package week2;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 
 public class denem {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        public static void main(String[] args)
-        {
+        // Dizinin boyutunu al
+        int n = scanner.nextInt();
 
-            int[] liste = {15, 1, 99, 7, 7, -22, 11, 2, -49, 52};
+        // Diziyi al
+        int[] array = new int[n];
+        for (int i = 0; i < n; i++) {
+            array[i] = scanner.nextInt();
+        }
 
-            Arrays.fill(liste, 2);
-            System.out.println(Arrays.toString(liste));
+        // Negatif toplamlı alt dizilerin sayısını hesapla
+        int count = countNegativeSubarrays(array);
+        System.out.println(count);
 
-            int[] liste2 = {15, 1, 99, 7, 7, -22, 11, 2, -49, 52};
+        scanner.close();
+    }
 
-            Arrays.fill(liste2, 3, 5, 7);
-            System.out.println(Arrays.toString(liste2));
+    // Negatif toplamlı alt dizilerin sayısını hesaplayan fonksiyon
+    public static int countNegativeSubarrays(int[] array) {
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
+            int sum = 0;
+            for (int j = i; j < array.length; j++) {
+                sum += array[j];
+                if (sum < 0) {
+                    count++;
                 }
+            }
+        }
+        return count;
+    }
             }
 
 
