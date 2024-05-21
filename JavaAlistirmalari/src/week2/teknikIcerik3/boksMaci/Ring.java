@@ -48,7 +48,6 @@ public class Ring {
             System.out.println("Sporcuların ağırlıkları uyuşmuyor.");
         }
 
-
     }
 
     public boolean checkWeight() {
