@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class MostMentionedWord {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Metni girin:");
+        System.out.println("Enter text:");
         String text = scanner.nextLine();
 
         // Split text into words
@@ -36,6 +36,6 @@ public class MostMentionedWord {
         }
 
         // Printing the result to the screen
-        System.out.println("En çok geçen kelime: " + mostMentionedWord + ", Sayısı: " + mostMentionedWordCounts);
+        System.out.println("Most repeated word: " + mostMentionedWord + ", Count: " + mostMentionedWordCounts);
     }
 }
