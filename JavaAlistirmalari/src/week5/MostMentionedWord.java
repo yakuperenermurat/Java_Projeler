@@ -13,6 +13,7 @@ public class MostMentionedWord {
         String[] words = text.split("[\\s,\\.]+");
 
         // Creating a HashMap to store words
+
         HashMap<String, Integer> wordCounts = new HashMap<>();
 
         // Finding the counts of each word

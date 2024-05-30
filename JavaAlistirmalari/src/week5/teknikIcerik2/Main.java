@@ -14,7 +14,7 @@ public class Main {
         Book book5 = new Book("Nutuk", 766, "Mustafa Kemal Atatürk", "1927");
 
         // Set that sorts books by name
-        Set<Book> bookSetByName = new TreeSet<>();
+        Set<Book> bookSetByName = new TreeSet<>(Comparator.comparing(Book::getTitle));
         bookSetByName.add(book1);
         bookSetByName.add(book2);
         bookSetByName.add(book3);
